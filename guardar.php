@@ -15,7 +15,7 @@
 $Direccion=$_POST['direccion'];
 $Pedidos=$_POST['pedidos'];
  //hacemos la sentencia de sql
- $sql="INSERT INTO datos VALUES('$nombre',
+ $sql="INSERT INTO datos VALUES('$Nombre',
            '$Direccion',
            '$Pedidos')";
  //ejecutamos la sentencia de sql
